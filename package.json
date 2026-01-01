@@ -1,0 +1,19 @@
+{
+  "name": "object-detection-cpp",
+  "version": "1.0.0",
+  "description": "Simple object detection demo in C++ using OpenCV",
+  "main": "object_detection.cpp",
+  "scripts": {
+    "build": "cmake . && make",
+    "run": "./object_detection sample.jpg",
+    "lint": "echo 'No linting configured for C++'"
+  },
+  "keywords": [
+    "opencv",
+    "c++",
+    "object-detection",
+    "demo"
+  ],
+  "author": "Osman",
+  "license": "MIT"
+}

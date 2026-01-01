@@ -1,0 +1,16 @@
+{
+  "model": {
+    "type": "ContourDetection",
+    "parameters": {
+      "canny_threshold1": 100,
+      "canny_threshold2": 200
+    }
+  },
+  "logging": {
+    "save_output": true,
+    "output_path": "results/output.jpg"
+  },
+  "extra": {
+    "notes": "This is a demo config file for object detection."
+  }
+}

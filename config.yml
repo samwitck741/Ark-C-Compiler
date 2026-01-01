@@ -1,0 +1,16 @@
+version: "1.0"
+
+environment:
+  language: "C++17"
+  opencv: "4.x"
+
+pipeline:
+  steps:
+    - load_image: "sample.jpg"
+    - convert: "grayscale"
+    - detect_edges:
+        method: "canny"
+        threshold1: 100
+        threshold2: 200
+    - find_contours: true
+    - draw_boxes: true
